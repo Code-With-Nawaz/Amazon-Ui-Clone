@@ -32,15 +32,18 @@ function Slider() {
 
   return (
     <div className="slider">
+      <div className="slider-image">
+        
+      <div className='slider-btn'>
       <button className="prev-button" onClick={prevSlide} aria-label="Previous slide">
         &#10094;
-      </button>
-      <div className="slider-image">
-        <img src={images[currentIndex]} style={{ width: '100%', height: '100%' }} alt={`Slide ${currentIndex + 1}`} />
-      </div>
+      </button>      
       <button className="next-button" onClick={nextSlide} aria-label="Next slide">
         &#10095;
-      </button>
+        </button>        
+      </div>
+        <img src={images[currentIndex]} style={{ width: '100%', height: '100%' }} alt={`Slide ${currentIndex + 1}`} />
+      </div>
     </div>
   );
 }
