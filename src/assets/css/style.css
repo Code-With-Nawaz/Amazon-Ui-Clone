@@ -290,11 +290,11 @@
 .card-section {  
   padding: 0px 14px;
   /* if realtive then */
-  /* position: relative; */
-  /* margin-top: -255px; */
+  position: relative;
+  margin-top: -255px;
   /* //if absolute then */
-  position: absolute;
-  top: 350px;
+  /* position: absolute; */
+  /* top: 350px; */
   gap: 20px 25px;
 }
 .card {
