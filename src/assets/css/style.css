@@ -3,12 +3,13 @@
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+  
 }
 /* header */
 .header {
   background-color: #131921;
   height: auto;
-  width: 100%;
+  /* width: 100; */
 }
 
 /* .nav-logo:hover, .location:hover ,.region:hover{
@@ -236,7 +237,7 @@
 
 /* Slider  */
 .slider {
-  position: relative;
+  /* position: relative; */
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -279,18 +280,21 @@
 /* Card */
 
 .card-container {
-  width: 100%;
+  display: grid;
+  gap: 20px;
+  width: auto;
   height: 1500px;
-  display: flex;
-  justify-content: center;
-
   background-color: #e3e6e6;
+  justify-items: center;
 }
-.card-section {
+.card-section {  
   padding: 0px 14px;
-  margin-top: -255px;
-  position: relative;
-  /* top: 430px; //if absolute then */
+  /* if realtive then */
+  /* position: relative; */
+  /* margin-top: -255px; */
+  /* //if absolute then */
+  position: absolute;
+  top: 350px;
   gap: 20px 25px;
 }
 .card {
@@ -401,24 +405,27 @@
 }
 
 .card-third-row-full {
+  max-width: 1190px;
   padding: 20px;
+  /* border: 2px solid red; */
   background-color: #fff;
-  width: 1235px;
-  box-sizing: border-box;
+}
+.card-full{
+  overflow: hidden;
 }
 
 .image-slide {
-  display: flex;
   gap: 10px;
 }
 .gallery-container {
   position: relative;
 }
 .gallery-container .image-slide {
+  justify-content: center;
+  display: flex;
   overflow: hidden;
 }
 .gallery-container .image-slide img {
-  overflow: hidden;
   width: 130px;
   height: 170px;
   object-fit: contain;

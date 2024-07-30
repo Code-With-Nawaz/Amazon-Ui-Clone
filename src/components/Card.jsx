@@ -1,4 +1,4 @@
-import React, {} from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import image1 from "../assets/images/card-image/Aug-offer.jpg";
 import cushion_covers from "../assets/images/card-image/cushion-covers.jpg";
@@ -47,18 +47,18 @@ import clothingaccessories19 from "../assets/images/clothing-accessories/clothin
 
 function Card() {
   function slidenext() {
-    var slide = document.querySelector('.image-slide');
+    var slide = document.querySelector(".image-slide");
     slide.scrollTo({
       left: slide.scrollLeft + 1200,
-      behavior: 'smooth'
+      behavior: "smooth",
     });
   }
-  
+
   function slideprev() {
-    var slide = document.querySelector('.image-slide');
+    var slide = document.querySelector(".image-slide");
     slide.scrollTo({
       left: slide.scrollLeft - 1200,
-      behavior: 'smooth'
+      behavior: "smooth",
     });
   }
   return (
@@ -276,72 +276,80 @@ function Card() {
           </div>
           {/* third row  */}
           <div className="card-third-row-full">
-            <div className="card-content">
-              <h2>Best Sellers in Clothing & Accessories</h2>
-            </div>
-            <div className="gallery-container">
-              
-            <div className="third-row-btn">
-              <button className="prev-button-sec-3" onClick={slideprev}> &#10094;</button>
-              <button className="next-button-sec-3" onClick={slidenext}>  &#10095;</button>
-            </div>
-              <div className="image-slide">
-                <div>
-                  <img src={clothingaccessories1} alt="" />
+           
+              <div className="card-content">
+                <h2>Best Sellers in Clothing & Accessories</h2>
+              </div>
+              <div className="card-full">
+              <div className="gallery-container">
+                <div className="third-row-btn">
+                  <button className="prev-button-sec-3" onClick={slideprev}>
+                    {" "}
+                    &#10094;
+                  </button>
+                  <button className="next-button-sec-3" onClick={slidenext}>
+                    {" "}
+                    &#10095;
+                  </button>
                 </div>
-                <div>
-                  <img src={clothingaccessories2} alt="" />
-                </div>
-                <div>
-                  <img src={clothingaccessories3} alt="" />
-                </div>
-                <div>
-                  <img src={clothingaccessories4} alt="" />
-                </div>
-                <div>
-                  <img src={clothingaccessories5} alt="" />
-                </div>
-                <div>
-                  <img src={clothingaccessories6} alt="" />
-                </div>
-                <div>
-                  <img src={clothingaccessories7} alt="" />
-                </div>
-                <div>
-                  <img src={clothingaccessories8} alt="" />
-                </div>
-                <div>
-                  <img src={clothingaccessories9} alt="" />
-                </div>
-                <div>
-                  <img src={clothingaccessories10} alt="" />
-                </div>
-                <div>
-                  <img src={clothingaccessories11} alt="" />
-                </div>
-                <div>
-                  <img src={clothingaccessories12} alt="" />
-                </div>
-                <div>
-                  <img src={clothingaccessories13} alt="" />
-                </div>
-                <div>
-                  <img src={clothingaccessories14} alt="" />
-                </div>
-                <div>
-                  <img src={clothingaccessories15} alt="" />
-                </div>
-                <div>
-                  <img src={clothingaccessories16} alt="" />
-                </div>
-                <div>
-                  <img src={clothingaccessories17} alt="" />
-                </div>
-                <div>
-                  <img src={clothingaccessories18} alt="" />
-                </div>
-                <div>
-                  <img src={clothingaccessories19} alt="" />
+                <div className="image-slide">
+                  <div>
+                    <img src={clothingaccessories1} alt="" />
+                  </div>
+                  <div>
+                    <img src={clothingaccessories2} alt="" />
+                  </div>
+                  <div>
+                    <img src={clothingaccessories3} alt="" />
+                  </div>
+                  <div>
+                    <img src={clothingaccessories4} alt="" />
+                  </div>
+                  <div>
+                    <img src={clothingaccessories5} alt="" />
+                  </div>
+                  <div>
+                    <img src={clothingaccessories6} alt="" />
+                  </div>
+                  <div>
+                    <img src={clothingaccessories7} alt="" />
+                  </div>
+                  <div>
+                    <img src={clothingaccessories8} alt="" />
+                  </div>
+                  <div>
+                    <img src={clothingaccessories9} alt="" />
+                  </div>
+                  <div>
+                    <img src={clothingaccessories10} alt="" />
+                  </div>
+                  <div>
+                    <img src={clothingaccessories11} alt="" />
+                  </div>
+                  <div>
+                    <img src={clothingaccessories12} alt="" />
+                  </div>
+                  <div>
+                    <img src={clothingaccessories13} alt="" />
+                  </div>
+                  <div>
+                    <img src={clothingaccessories14} alt="" />
+                  </div>
+                  <div>
+                    <img src={clothingaccessories15} alt="" />
+                  </div>
+                  <div>
+                    <img src={clothingaccessories16} alt="" />
+                  </div>
+                  <div>
+                    <img src={clothingaccessories17} alt="" />
+                  </div>
+                  <div>
+                    <img src={clothingaccessories18} alt="" />
+                  </div>
+                  <div>
+                    <img src={clothingaccessories19} alt="" />
+                  </div>
                 </div>
               </div>
             </div>
