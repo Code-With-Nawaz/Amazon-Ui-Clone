@@ -1,0 +1,381 @@
+/* App */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* header */
+.header {
+  background-color: #131921;
+  height: auto;
+  width: 100%;
+}
+
+/* .nav-logo:hover, .location:hover ,.region:hover{
+    border: 1px solid white;
+} */
+
+.nav-top {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 60px;
+}
+.nav-logo img {
+  width: 70%;
+  max-width: 200px; /* Limit the maximum size of the logo */
+  height: 50px; /* Maintain the aspect ratio */
+  object-fit: contain;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.location {
+  position: relative;
+  font-size: 13px;
+}
+.loc-mark {
+  position: absolute;
+  font-size: 20px;
+  left: -20px;
+  top: 10px;
+  color: #ccc;
+}
+.location .loc-1 {
+  color: #ccc;
+}
+.location .loc-2 {
+  color: #fff;
+}
+.searchbar {
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  margin: 10px 20px;
+}
+.searchbar select {
+  background-color: #e6e6e6;
+  padding: 13px 0px;
+  border-radius: 10px 0 0 10px; /* Top-left and bottom-left corners */
+}
+.search-input input {
+  outline: none;
+  border: none;
+  width: 350px;
+  height: 42px;
+}
+.search-input input {
+  padding-left: 12px;
+}
+.searchbar:focus-within {
+  padding: 2px;
+  background-color: #d49b45;
+}
+.search-icon button {
+  outline: none;
+  border: none;
+  background-color: #ff9900;
+  color: #192330;
+  padding: 11px 12px;
+  font-size: 10px;
+  border-radius: 0px 10px 10px 0px; /* Top-right and bottom-right corners */
+}
+.region {
+  gap: 10px;
+  display: flex;
+  color: #fff;
+  align-items: center;
+}
+.region img {
+  width: 25px;
+  max-width: 25px;
+}
+.region select option {
+  background: #fff;
+  border: none;
+  color: black;
+}
+.region select {
+  background: none;
+  border: none;
+  color: white;
+}
+
+.sign-in-section {
+  padding: 1px;
+}
+
+.greet-signin {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+}
+.account-list select {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+.account-list select option {
+  background-color: transparent;
+  border: none;
+  color: #131921;
+}
+
+.return-order-section {
+  color: #fff;
+}
+.return-order-section .return {
+  font-size: 13px;
+}
+.return-order-section .order {
+  font-size: 14px;
+  font-weight: 700;
+}
+.cart .cart-icon {
+  font-weight: 700;
+  color: #fff;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.cart .cart-icon::after {
+  content: "Cart";
+}
+
+.nav-main {
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #232f3e;
+}
+.navbar {
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  align-items: center;
+  padding: 0 20px;
+}
+.menu_Ad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu_Ad img {
+  width: 350px;
+  /* max-width: 0px; */
+}
+.all-category {
+  position: relative;
+}
+.all-cat-btn {
+  margin-left: 6px;
+  font-size: 16px;
+  color: #fff;
+}
+.menu-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.bar {
+  font-size: 10px;
+  width: 15px;
+  height: 1.5px;
+  background: #fff;
+  margin: 1px;
+  transition: 0.3s;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 46px;
+  left: -20px;
+  width: 200px;
+  background: #333;
+  color: #fff;
+  list-style: none;
+  padding: 0;
+}
+
+.menu ul {
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #444;
+}
+
+.menu li:last-child {
+  border-bottom: none;
+}
+
+.menu a {
+  display: block;
+  padding: 6px 19px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background: #555;
+}
+
+/* Show menu when toggled */
+.menu.active {
+  display: block;
+  z-index: 1001;
+}
+
+/* Slider  */
+.slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-image {
+  width: 1500px;
+  height: 100%;
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 25%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: rgb(101, 101, 101);
+  padding: 10px;
+  cursor: pointer;
+  font-size: 50px;
+  z-index: 1000;
+}
+.prev-button:active,
+.next-button:active {
+  color: black;
+}
+.prev-button {
+  left: 10px;
+}
+
+.next-button {
+  right: 10px;
+}
+
+/* Card */
+
+.card-container {
+  background-color: rgb(219, 219, 219);
+  height: 1000px;
+}
+.card-section {
+  padding: 0px 14px;
+  margin-top: -300px;
+  position: relative;
+  /* top: 430px; */
+  gap: 20px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  position: relative;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  width: 250px;
+  height: 380px;
+  box-sizing: content-box;
+}
+.card-content {
+  padding-bottom: 15px;
+}
+.card-content h2 {
+  font-size: 22px;
+}
+.card-image {
+  overflow: hidden;
+}
+.card-image img {
+  width: 250px;
+  height: 275px;
+  object-fit: cover;
+}
+.card-link {
+  position: absolute;
+  bottom: 15px;
+}
+.card-link a {
+  text-decoration: none;
+  color: #007185;
+  font-size: 14px;
+}
+.card-link a:hover {
+  color: #ff9900;
+}
+
+.card-image-home {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  gap: 5px;
+}
+.card-image-home div img {
+  width: 120px;
+  height: 100px;
+  object-fit: cover;
+}
+.card-image-home span {
+  font-size: 12px;
+  color: #000000;
+}
+
+.card-button {
+  padding: 20px 0px;
+}
+
+.card-signin {
+  height: 100px;  
+  position: relative;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  width: 250px;
+  box-sizing: content-box;
+}
+.card-2{
+  box-sizing: content-box;
+    margin-left: -20px;
+    padding: 20px;
+    height: 223px;
+    max-width: 400px;
+    background-color: #fff;
+    width: 250px;
+}
+.card-2 .card-image img{
+  height: 225px;
+}
+
+.card-button button {
+  padding: 8px 75px;
+  outline: none;
+  border: none;
+  background: #ffd814;
+  border-color: #fcd200;
+  color: black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.card-button button:hover {
+  background: #fcd200;
+}
