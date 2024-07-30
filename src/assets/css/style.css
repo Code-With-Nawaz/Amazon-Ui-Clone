@@ -2,13 +2,13 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  
+  font-family: "Amazon Ember", Arial, sans-serif;
 }
 /* header */
 .header {
   background-color: #131921;
   height: auto;
+  
   /* width: 100; */
 }
 
@@ -150,10 +150,11 @@
   background-color: #232f3e;
 }
 .navbar {
+  font-size: 1rem;
   color: #fff;
   display: flex;
-  justify-content: space-evenly;
-  gap: 10px;
+  justify-content: center;
+  gap: 13px;
   align-items: center;
   padding: 0 20px;
 }
@@ -171,7 +172,7 @@
 }
 .all-cat-btn {
   margin-left: 6px;
-  font-size: 16px;
+  font-size: 1rem;
   color: #fff;
 }
 .menu-toggle {
@@ -282,14 +283,14 @@
 .card-container {
   display: grid;
   gap: 20px;
-  width: auto;
-  height: 1500px;
+  /* width: auto; */
+  /* height: 1500px; */
   background-color: #e3e6e6;
   justify-items: center;
 }
-.card-section {  
-  padding: 0px 14px;
-  /* if realtive then */
+.card-section {
+  padding: 20px 14px;
+  /* if relative then */
   position: relative;
   margin-top: -255px;
   /* //if absolute then */
@@ -406,11 +407,11 @@
 
 .card-third-row-full {
   max-width: 1190px;
-  padding: 20px;
-  /* border: 2px solid red; */
+  padding: 22px;
   background-color: #fff;
+  /* border: 2px solid red; */
 }
-.card-full{
+.card-full {
   overflow: hidden;
 }
 
@@ -426,10 +427,9 @@
   overflow: hidden;
 }
 .gallery-container .image-slide img {
-  width: 130px;
-  height: 170px;
+  width: 135px;
+  height: 130px;
   object-fit: contain;
-  object-position: bottom;
 }
 
 .prev-button-sec-3,
@@ -454,4 +454,90 @@
 .prev-button-sec-3:active,
 .next-button-sec-3:active {
   color: rgb(101, 101, 101);
+}
+.back-to-top {
+  background-color: #37475a;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.back-to-top a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.9rem;
+}
+.back-to-top:hover {
+  background-color: #37475ad5;
+}
+
+.footer-sign-in-container{  
+  background-color: #ffffff;
+  padding: 40px 0PX;
+
+}
+.footer-sign-in{
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-top: 1px solid #76767638;
+  border-bottom: 1px solid #76767638;
+  gap: 3px;
+}
+.footer-sign-in .footer-sign-in-btn button{
+  cursor: pointer;
+  padding: 5px 80px;
+  border: 1px solid #c7511f;
+  background: #ff9900;
+  color: black;
+  font-weight: bold;
+  font-size: 0.7rem;
+  border-radius: 5px;
+}
+.footer-sign-in .footer-sign-in-btn button:hover{  
+  transition: background 0.5s ease-out;
+  background: #fcd200;
+}
+.footer-sign-in-content-1 span a{  
+  text-decoration: none;
+  color: #007185;
+}
+.footer-sign-in-content-1 span a:hover{  
+  color: #ff9900;
+}
+.footer-sign-in-content span{
+  font-size: 0.72rem;
+
+}
+.footer-sign-in-content-1 span{
+  text-align: center;
+  font-size: 0.6rem;
+}
+
+
+/* Footer  */
+.footer-middle {
+  background-color: #131921;
+  color: #fff;
+  padding: 60px 0px;
+}
+.footer-content{
+  display: flex;
+  justify-content: center;
+  gap: 75px;
+  font-size: 0.9rem;
+
+}
+.footer-content ul li{
+  color: #bababa;
+  list-style: none;
+}
+.footer-content ul{
+  padding: 10px 0px;
+}
+.footer-content ul li{
+  padding: 3px 0px;
 }

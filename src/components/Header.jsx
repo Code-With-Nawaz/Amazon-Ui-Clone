@@ -105,7 +105,7 @@ function Header() {
               >
                 <FontAwesomeIcon
                   icon={faBars}
-                  size="2x"
+                  size="1x"
                   style={{ color: "white" }}
                 />
                 <span className="all-cat-btn">All</span>
