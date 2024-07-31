@@ -5,7 +5,8 @@ import Slider from './components/Slider.jsx';
 import Card from './components/Card.jsx';
 import BackTotop from './components/BackTotop.jsx'
 import FooterSignin from './components/FooterSignin.jsx'
-import Footer from './components/Footer.jsx';
+import FooterMiddle from './components/FooterMiddle.jsx';
+import FooterBottom from './components/FooterBottom.jsx';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Router>
       <Header />
         <Routes>
-        <Route path="/" element={[ <Slider/>,<Card/>,<FooterSignin/>,<BackTotop/>,<Footer/>]} />
+        <Route path="/" element={[ <Slider/>,<Card/>,<FooterSignin/>,<BackTotop/>,<FooterMiddle/>,<FooterBottom/>]} />
           
         </Routes>
       </Router>
