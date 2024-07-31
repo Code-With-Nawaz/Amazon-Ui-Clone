@@ -44,7 +44,7 @@ import clothingaccessories16 from "../assets/images/clothing-accessories/clothin
 import clothingaccessories17 from "../assets/images/clothing-accessories/clothing-accessories17.jpg";
 import clothingaccessories18 from "../assets/images/clothing-accessories/clothing-accessories18.jpg";
 import clothingaccessories19 from "../assets/images/clothing-accessories/clothing-accessories19.jpg";
-import Slider from "./Slider.jsx";
+
 function Card() {
   function slidenext() {
     var slide = document.querySelector('.image-slide');
@@ -63,7 +63,6 @@ function Card() {
   }
   return (
     <>
-    <Slider/>
       <div className="card-container">
         <div className="card-section">
           {/* first row  */}
