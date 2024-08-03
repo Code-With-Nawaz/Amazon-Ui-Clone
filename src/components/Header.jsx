@@ -127,7 +127,7 @@ function Header() {
                 </ul>
               </div>
             </div>
-            <div><Link style={{textDecoration:"none", color:"white"}} to='/'>Amazon MiniTV</Link></div>
+            <div><Link style={{textDecoration:"none", color:"white"}} to='/'>Amazon miniTV</Link></div>
             <div><Link style={{textDecoration:"none", color:"white"}} to='/'>Sell</Link></div>
             <div><Link style={{textDecoration:"none", color:"white"}} to='/'>Best Sellers</Link></div>
             <div><Link style={{textDecoration:"none", color:"white"}} to='/'>Today's Deals</Link></div>
@@ -136,6 +136,28 @@ function Header() {
             <div><Link style={{textDecoration:"none", color:"white"}} to='/'>Customer Service</Link></div>
             <div><Link style={{textDecoration:"none", color:"white"}} to='/'>Electronics</Link></div>
             <div><Link style={{textDecoration:"none", color:"white"}} to='/'>Fashion</Link></div>            
+            <div><Link style={{textDecoration:"none", color:"white"}} to='/'>New Releases</Link></div>            
+            <div><Link style={{textDecoration:"none", color:"white"}} to='/'>Home & Kitchen</Link></div>            
+            <div><Link style={{textDecoration:"none", color:"white"}} to='/'>Amazon Pay</Link></div>            
+            <div><Link style={{textDecoration:"none", color:"white"}} to='/'>Computers</Link></div>            
+            <div><Link style={{textDecoration:"none", color:"white"}} to='/'>Books</Link></div>            
+            <div><Link style={{textDecoration:"none", color:"white"}} to='/'>Car & Motorbike</Link></div>            
+            <div><Link style={{textDecoration:"none", color:"white"}} to='/'>Gift Ideas</Link></div>            
+            <div><Link style={{textDecoration:"none", color:"white"}} to='/'>Beauty & Personal Care</Link></div>            
+            <div><Link style={{textDecoration:"none", color:"white"}} to='/'>Gift Cards</Link></div>            
+            <div><Link style={{textDecoration:"none", color:"white"}} to='/'>Toys & Games</Link></div>            
+            <div><Link style={{textDecoration:"none", color:"white"}} to='/'>Sports, Fitness & Outdoors</Link></div>            
+            <div><Link style={{textDecoration:"none", color:"white"}} to='/'>Grocery & Gourmet Foods</Link></div>            
+            <div><Link style={{textDecoration:"none", color:"white"}} to='/'>Health, Household & Personal Care</Link></div>            
+            <div><Link style={{textDecoration:"none", color:"white"}} to='/'>Custom Products</Link></div>            
+            <div><Link style={{textDecoration:"none", color:"white"}} to='/'>Baby</Link></div>            
+            <div><Link style={{textDecoration:"none", color:"white"}} to='/'>Video Games</Link></div>            
+            <div><Link style={{textDecoration:"none", color:"white"}} to='/'>Pet Supplies</Link></div>            
+            <div><Link style={{textDecoration:"none", color:"white"}} to='/'>Audible</Link></div>            
+            <div><Link style={{textDecoration:"none", color:"white"}} to='/'>AmazonBasics</Link></div>            
+            <div><Link style={{textDecoration:"none", color:"white"}} to='/'>Subscribe & Save</Link></div>            
+            <div><Link style={{textDecoration:"none", color:"white"}} to='/'>Coupons</Link></div>            
+            <div><Link style={{textDecoration:"none", color:"white"}} to='/'>Kindle eBooks</Link></div>            
           </nav>
           
           <div className="menu_Ad">

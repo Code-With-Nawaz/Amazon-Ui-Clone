@@ -22,7 +22,7 @@
   gap: 15px;
   align-items: center;
   justify-content: space-evenly;
-  height: 60px;
+  height: auto;
 }
 .nav-logo img {
   width: 70%;
@@ -144,24 +144,32 @@
 }
 
 .nav-main {
-  height: 35px;
+  width: 100%;
+  height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #232f3e;
 }
 .navbar {
-  font-size: 1rem;
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow-wrap: break-word;
+  box-sizing: content-box;
+  overflow: hidden;
+  width: 60%;
+  text-wrap: nowrap;
+  font-size: 0.84em;
   color: #fff;
   display: flex;
-  justify-content: center;
   gap: 13px;
   align-items: center;
   padding: 0 20px;
 }
 .menu_Ad {
+  width: 40%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 .menu_Ad img {
@@ -239,6 +247,7 @@
 
 /* Slider  */
 .slider {
+  width: 100%;
   /* position: relative; */
   overflow: hidden;
   display: flex;
@@ -248,8 +257,11 @@
 
 .slider-image {
   position: relative;
-  width: 1270px;
+  width: 1500px;
   height: 100%;
+}
+.slider-image img{
+  background-position: center center;
 }
 .slider button {
   position: absolute;
@@ -282,7 +294,7 @@
 /* Card */
 
 .card-container {
-  display: grid;
+  /* display: grid; */
   gap: 20px;
   /* width: auto; */
   /* height: 1500px; */
@@ -292,8 +304,8 @@
 .card-section {
   padding: 20px 14px;
   /* if relative then */
-  position: relative;
-  margin-top: -255px;
+  /* position: relative; */
+  margin-top: -288px;
   /* //if absolute then */
   /* position: absolute; */
   /* top: 350px; */

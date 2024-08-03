@@ -12,10 +12,10 @@ function App() {
   return (
     <div className="App">
       <Router>
-      <Header />
+        <Header />
         <Routes>
-        <Route path="/" element={[ <Slider/>,<Card/>,<FooterSignin/>,<BackTotop/>,<FooterMiddle/>,<FooterBottom/>]} />
-          
+          <Route path="/" element={[<Slider />, <Card />, <FooterSignin />, <BackTotop />, <FooterMiddle />, <FooterBottom />]} />
+
         </Routes>
       </Router>
     </div>
