@@ -110,6 +110,7 @@ function Header() {
                 />
                 <span className="all-cat-btn">All</span>
               </button>
+              <div/>
               
 
               {/* All category menu */}

@@ -11,7 +11,7 @@ import Slider9 from '../assets/images/slider/slider9.jpg';
 import Slider10 from '../assets/images/slider/slider10.jpg';
 
 function Slider() {
-  const images = [Slider1, Slider2, Slider3, Slider4, Slider5, Slider6, Slider7, Slider8, Slider9, Slider10];
+    const images = [Slider1, Slider2, Slider3, Slider4, Slider5, Slider6, Slider7, Slider8, Slider9, Slider10];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   // Function to move to the next image
@@ -29,8 +29,8 @@ function Slider() {
     const interval = setInterval(nextSlide, 3000); // 3000ms = 3s
     return () => clearInterval(interval);
   },);
-
   return (
+    <>
     <div className="slider">
       <div className="slider-image">
         
@@ -44,8 +44,11 @@ function Slider() {
       </div>
         <img src={images[currentIndex]} style={{ width: '100%', height: '100%' }} alt={`Slide ${currentIndex + 1}`} />
       </div>
-    </div>
-  );
+      
+        
+      </div>
+      </>
+  )
 }
 
-export default Slider;
+export default Slider

@@ -144,6 +144,7 @@
 }
 
 .nav-main {
+  position: relative;
   width: 100%;
   height: auto;
   display: flex;
@@ -151,7 +152,7 @@
   align-items: center;
   background-color: #232f3e;
 }
-.navbar {
+.navbar {  
   word-wrap: break-word;
   word-break: break-all;
   overflow-wrap: break-word;
@@ -175,9 +176,6 @@
 .menu_Ad img {
   width: 350px;
   /* max-width: 0px; */
-}
-.all-category {
-  position: relative;
 }
 .all-cat-btn {
   margin-left: 6px;
@@ -206,8 +204,8 @@
 .menu {
   display: none;
   position: absolute;
-  top: 46px;
-  left: -20px;
+  top: 40px;
+  left: 4px;
   width: 200px;
   background: #333;
   color: #fff;
@@ -245,19 +243,22 @@
   z-index: 1001;
 }
 
+.main-container{
+  position: relative;
+  
+  background-color: #e3e6e6;
+}
 /* Slider  */
 .slider {
   width: 100%;
-  /* position: relative; */
-  overflow: hidden;
+  position: relative;
   display: flex;
   justify-content: center;
-  background-color: #e3e6e6;
+  align-items: center;
 }
-
 .slider-image {
   position: relative;
-  width: 1500px;
+  width: 1265px;
   height: 100%;
 }
 .slider-image img{
@@ -294,29 +295,21 @@
 /* Card */
 
 .card-container {
-  /* display: grid; */
-  gap: 20px;
-  /* width: auto; */
-  /* height: 1500px; */
-  background-color: #e3e6e6;
   justify-items: center;
 }
 .card-section {
-  padding: 20px 14px;
-  /* if relative then */
-  /* position: relative; */
-  margin-top: -288px;
-  /* //if absolute then */
-  /* position: absolute; */
-  /* top: 350px; */
+  padding: 0px 15px;
+  margin-top: -230px;
   gap: 20px 25px;
+  padding-bottom: 20px;
+
 }
 .card {
   position: relative;
-  max-width: 400px;
   padding: 20px;
   background-color: #fff;
   width: 250px;
+
   height: 380px;
   box-sizing: content-box;
 }
@@ -328,6 +321,7 @@
 }
 .card-image {
   overflow: hidden;
+  
 }
 .card-image img {
   width: 250px;
@@ -403,29 +397,25 @@
 .card-button button:hover {
   background: #fcd200;
 }
-.card-first-row {
-  display: flex;
-  gap: 25px;
-  flex-wrap: nowrap;
-  justify-content: center;
-  padding-bottom: 10px;
-}
-.card-second-row {
-  display: flex;
-  gap: 25px;
+.card-first-row , .card-second-row{
+  display: flex;  
+  gap: 0px 25px;
   flex-wrap: nowrap;
   justify-content: center;
   padding-bottom: 10px;
 }
 
-.card-third-row-full {
-  max-width: 1190px;
-  padding: 22px;
-  background-color: #fff;
-  /* border: 2px solid red; */
+.card-third-row-full {  
+  margin: auto;
+  width: 1235px;
+  padding-top: 10px;
+
 }
 .card-full {
+  padding: 22px;
   overflow: hidden;
+  background: #fff;
+  
 }
 
 .image-slide {
