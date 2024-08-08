@@ -1,0 +1,135 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .header {
+    display: none;
+  }
+  .header-responsive {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: #111a27;
+  }
+  .header-res-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .res-top-left {
+    display: flex;
+    justify-content: left;
+  }
+  .top-hamburger-menu {
+    color: white;
+  }
+
+  .res-top-logo img {
+    width: 100px;
+  }
+  .res-top-logo {
+    padding-left: 15px;
+  }
+  .res-top-right {
+    display: flex;
+    color: white;
+  }
+  .res-user {
+    display: flex;
+  }
+  .res-cart {
+    padding: 0px 15px;
+  }
+  .res-user-icon {
+    padding: 0px 5px;
+  }
+  .header-res-mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .res-search-input {
+    position: relative;
+  }
+  .res-search-input input {
+    padding-left: 20px;
+    outline: none;
+    border: none;
+    width: 340px;
+    height: 40px;
+    border-radius: 10px 0px 0px 10px;
+  }
+  .res-search-icon button {
+    outline: none;
+    border: none;
+    background-color: #ff9900;
+    color: #192330;
+    padding: 14px 12px;
+    font-size: 10.2px;
+    border-radius: 0px 10px 10px 0px; /* Top-right and bottom-right corners */
+  }
+
+  .header-res-mid-2 ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+  }
+  .header-res-mid-2 ul {
+    gap: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+  }
+  .header-res-mid-2 ul li {
+    padding: 10px 5px 0px 10px;
+  }
+  .location-near-header-res {
+    padding: 0px 10px;
+    background-color: #192330;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    align-items: center;
+  }
+  .location-near-header-adress-res {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+
+  }
+  .location-near-header-adress-res select {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+  }
+  .location-near-header-adress-res select option {
+    background-color: transparent;
+    border: none;
+    color: #131921;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* ...; */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* ...; */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* ...; */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .header-responsive , .location-near-header-res{
+        display: none;
+    }
+  /* ...; */
+}

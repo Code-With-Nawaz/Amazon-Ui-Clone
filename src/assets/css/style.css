@@ -5,17 +5,14 @@
   font-family: "Amazon Ember", Arial, sans-serif;
   box-sizing: border-box;
 }
+.res-header{
+  display: none;
+}
 /* header */
 .header {
   background-color: #131921;
   height: auto;
-
-  /* width: 100; */
 }
-
-/* .nav-logo:hover, .location:hover ,.region:hover{
-    border: 1px solid white;
-} */
 
 .nav-top {
   display: flex;
@@ -78,8 +75,8 @@
   border: none;
   background-color: #ff9900;
   color: #192330;
-  padding: 11px 12px;
-  font-size: 10px;
+  padding: 14px 12px;
+  font-size: 10.2px;
   border-radius: 0px 10px 10px 0px; /* Top-right and bottom-right corners */
 }
 .region {
@@ -152,7 +149,7 @@
   align-items: center;
   background-color: #232f3e;
 }
-.navbar {  
+.navbar {
   word-wrap: break-word;
   word-break: break-all;
   overflow-wrap: break-word;
@@ -243,14 +240,14 @@
   z-index: 1001;
 }
 
-.main-container{
+.main-container {
   position: relative;
-  
+
   background-color: #e3e6e6;
 }
 /* Slider  */
 .slider {
-  width: 100%;
+  /* width: 100%; */
   position: relative;
   display: flex;
   justify-content: center;
@@ -258,10 +255,10 @@
 }
 .slider-image {
   position: relative;
-  width: 1265px;
+  width: 1500px;
   height: 100%;
 }
-.slider-image img{
+.slider-image img {
   background-position: center center;
 }
 .slider button {
@@ -302,7 +299,6 @@
   margin-top: -230px;
   gap: 20px 25px;
   padding-bottom: 20px;
-
 }
 .card {
   position: relative;
@@ -321,7 +317,6 @@
 }
 .card-image {
   overflow: hidden;
-  
 }
 .card-image img {
   width: 250px;
@@ -397,25 +392,24 @@
 .card-button button:hover {
   background: #fcd200;
 }
-.card-first-row , .card-second-row{
-  display: flex;  
+.card-first-row,
+.card-second-row {
+  display: flex;
   gap: 0px 25px;
   flex-wrap: nowrap;
   justify-content: center;
   padding-bottom: 10px;
 }
 
-.card-third-row-full {  
+.card-third-row-full {
   margin: auto;
   width: 1235px;
   padding-top: 10px;
-
 }
 .card-full {
   padding: 22px;
   overflow: hidden;
   background: #fff;
-  
 }
 
 .image-slide {
@@ -530,11 +524,11 @@
   gap: 75px;
   font-size: 0.9rem;
 }
-.footer-content ul li  a{
+.footer-content ul li a {
   text-decoration: none;
-  color: #DDD;
+  color: #ddd;
 }
-.footer-content ul li  a:hover{
+.footer-content ul li a:hover {
   text-decoration: underline;
   color: #fff;
 }
@@ -601,37 +595,32 @@
 }
 .footer-table td {
   padding: 0px 30px;
-  
 }
 
 .footer-table tr {
   height: 60px;
-  
- 
 }
 .footer-table a {
   font-size: 0.8rem;
-  color: #DDD;
+  color: #ddd;
   text-decoration: none;
 }
 .footer-table a:hover {
   text-decoration: underline;
-  
 }
 .footer-table span {
   display: block;
   color: #666;
- 
 }
 
-.footer-bottom-2{
-  color: #DDD;
+.footer-bottom-2 {
+  color: #ddd;
   font-size: 0.8rem;
   padding-bottom: 40px;
 }
-.footer-bottom-content-end ul{
-  list-style: none;  
-  color: #DDD;
+.footer-bottom-content-end ul {
+  list-style: none;
+  color: #ddd;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -639,15 +628,15 @@
 .footer-bottom-content-end ul li a {
   line-height: 1.8;
   text-decoration: none;
-  color: #DDD;
+  color: #ddd;
   padding: 0px 10px;
-   font-size: 0.8rem;
+  font-size: 0.8rem;
 }
-.footer-bottom-content-end ul li a:hover{
+.footer-bottom-content-end ul li a:hover {
   text-decoration: underline;
 }
 .footer-bottom-content-end span {
-   display: flex;
-   justify-content: center;
-   align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

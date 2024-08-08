@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './assets/css/style.css'
+import './assets/css/responsive.css'
 import Header from './components/Header.jsx';
 import Main from './components/Main.jsx';
 import BackTotop from './components/BackTotop.jsx'
@@ -14,7 +15,8 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={
-            [<Main />,
+            [
+            <Main />,
             <FooterSignin />,
             <BackTotop />,
             <FooterMiddle />,

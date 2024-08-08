@@ -6,7 +6,6 @@ import Slider from "./Slider";
 import CardContainer from "./CardContainer";
 
 function Main() { 
-
   
 
   return (
